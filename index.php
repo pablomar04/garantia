@@ -23,7 +23,7 @@ else {
 
 
         default:
-          echo "Page not found";
+          echo "Page not found - Pagina no encontrada";
   				break;
         }
       }
