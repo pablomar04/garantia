@@ -115,7 +115,7 @@
               <h2 class="sub-header">Ordenes</h2>
             </div>
             <div class="col-sm-6"> 
-              <button class="btn btn-primary">Nuevo reclamo</button></div>
+              <button class="btn btn-primary">New Claims</button></div>
             </div> 
           <div class="table-responsive">
             <table class="table table-striped">
