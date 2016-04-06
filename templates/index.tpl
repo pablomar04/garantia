@@ -110,7 +110,13 @@
             </div>
           </div>-->
 
-          <h2 class="sub-header">Ordenes</h2>
+          <div class="row">
+            <div class="col-sm-6">
+              <h2 class="sub-header">Ordenes</h2>
+            </div>
+            <div class="col-sm-6"> 
+              <button class="btn btn-primary">Nuevo reclamo</button></div>
+            </div> 
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
