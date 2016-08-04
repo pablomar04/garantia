@@ -121,7 +121,7 @@
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th>Id</th>
+                  
                   <th>Orden</th>
                   <th>Fecha apertura</th>
                   <th>Fecha reparacion</th>
@@ -141,11 +141,14 @@
                 {foreach from=$ordenes  item=orden}
                 
                 <tr>
-                 
-                  {foreach from=$orden item=items}
-                  <td>{$items} </td>
                   
-                  {/foreach}
+                  
+                  <td>{$orden.numero} </td>
+                  <td>{$orden.fechaapertura} </td>
+                  <td>{$orden.fecharep} </td>
+                  <td>{$orden.fechaenv} </td>
+                  <td>{$orden.recibido} </td>
+                  
                   <td><a href="">Detalles</i></a></td>
                  
                 </tr>
